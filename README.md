@@ -1,47 +1,49 @@
+
 # Scooter Sales Data Analytics
 
-This repository focuses on data analysis and visualization using Microsoft Excel. The raw sales data was cleaned by removing duplicates, handling null values, and standardizing number formats. The dataset was then transformed into a structured table for easier manipulation and analysis.
+This project showcases data cleaning, analysis, and visualization of scooter sales using **Microsoft Excel**. The raw dataset was refined by removing duplicates, handling missing values, and standardizing formats. The cleaned data was then transformed into a structured table, enabling seamless analysis and reporting.
 
-# Business Questions
+---
 
-The analysis was designed to answer key business questions related to sales performance and revenue distribution:
+## 🔑 Business Questions Addressed
 
-1. Sales by Salesperson
+### 1. Sales by Salesperson
 
-A pivot table was created to display sales performance by salesperson, grouped by state.
+A pivot table was built to evaluate sales performance across salespersons, segmented by state.
 
-Metrics included:
+**Metrics analyzed:**
 
-Total Clients
+* Total Clients
+* Average Sales per Client
+* Total Sales per Salesperson
 
-Average Sales per Client
+An **interactive slicer** was integrated for quick filtering by salesperson.
 
-Total Sales per Salesperson
+---
 
-An interactive slicer was added for quick filtering by salesperson.
+### 2. Sales by State
 
-2. Sales by State
+A separate pivot table provided insights into state-level sales distribution.
 
-A separate pivot table was developed to organize sales data by state with improved clarity.
+**Metrics analyzed:**
 
-Key metrics included:
+* Total Sales
+* Average Sales per Client
+* Total Commission Earned
 
-Total Sales
+An additional **state slicer** allowed flexible filtering for detailed exploration.
 
-Average Sales per Client
+---
 
-Total Commission Earned
+## 📊 Excel Dashboard
 
-An additional slicer was included for state-level filtering.
+All findings were consolidated into an **interactive dashboard**, enabling stakeholders to explore sales performance at a glance.
 
-# Excel Dashboard
+**Dashboard highlights:**
 
-The findings were consolidated into an interactive Excel Dashboard that highlights key insights through:
+* Pivot Tables for salesperson and state-level insights
+* Pivot Bar Charts with slicers for interactive filtering
+* A Pie Chart representing sales revenue distribution by state
 
-Pivot Tables
+This dashboard empowers decision-makers to quickly filter, analyze, and interpret sales trends across multiple dimensions.
 
-Pivot Bar Charts with Slicers
-
-A Pie Chart showing Sales Revenue by State
-
-This dashboard allows stakeholders to quickly filter, explore, and interpret sales performance across different dimensions.
